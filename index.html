@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexi Grid Class of 2023</title>
+    
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Caveat:wght@500&family=Londrina+Shadow&family=Petit+Formal+Script&family=Playfair+Display&display=swap" rel="stylesheet"> -->
+
+    
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Prompt:wght@300&family=Roboto+Condensed:wght@600&display=swap" rel="stylesheet"> -->
+  
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nanum+Gothic&family=Yeseva+One&display=swap" rel="stylesheet" />
+  <body>
+<header>
+  <h1>Flexigrid Highschool</h1>
+</header>
+
+    <nav>
+      <a href="Class photo of 2023.html"> Pictures of Students </a>
+      <a href="Teachers of Flexigrid Highschool.html"> Teachers of Flexigrid</a>
+    </nav>
+
+    <main>
+      <h2>Nau Mai, Haere Mai Ki Flexigrid Highschool!</h2>
+
+      <p>In Flexigrid Digital Technology Class we are an all girls class year 11 who aim to provide all students with an opportunity of a good learning and supportive experience. We are located in the South Island, Timaru on Flexigrid Avenue. We specialise in Digital Technology, as we push and motivate our students to accomplish and reach their dreams and aspirations going above and beyond. Whether it may be to become an Information Technology Architect, Software Developer, Digital marketing or Game Developer or whatever may interest them, we are all here for it in assisting you to achieve and reach your full purpose and potential.</p>
+<div class="image">
+      <img src="iconflexi.jpg"icon school>
+    </div>
+    </main>
+
+    <footer>
+      <p>&copy; Flexigrid Class 2023</p>
+    </footer>
+  </body>
+</html>
+
+<style>
+  h1 {
+   /* font-family: 'Prompt', sans-serif;
+    font-size: 60px; */
+    /* font-family:'Londrina Shadow', cursive; */
+    font-family: "Bebas Neue";
+    font-size:60px;
+    background-color:#EE6C4D;
+    color:#ffff;
+    text-align: center;
+    margin-top: 0em;
+  }
+  h2 {
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Playfair Display', serif; */
+    font-family: "Yeseva One", cursive;
+    font-size:30px;
+    background-color:#26547C;
+    color: #fefefe;
+    margin-right:4em;
+    padding-left:1em;
+    margin-top:1em;
+  }
+ 
+
+  p {
+     /* font-family:'Averia Serif Libre', cursive; */
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    font-family: "Nanum Gothic", sans-serif;
+    background-color:#60a9d4;
+    color:rgb(255, 255, 255);
+    padding-left: 2em;
+    margin-left: em;
+    font-size: large;
+    margin-right:4em;
+    margin-top:0.5em;
+    padding-right:2em;
+  }
+
+a {
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: solid #e1deda;
+    border-radius: 15px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    background-color:#26547C;
+    text-align: center;
+    color:#ffff;
+    font-size: larger;
+    margin-left: 1em;
+    display:block;
+    margin-top:1em;
+    
+  }
+
+  nav {
+    margin-top: 3em;
+    margin-right: 7em;
+  }
+  img {
+    border-radius: 10px;
+    border: solid;
+    border-width: 10px;
+    border-color:#EE6C4D;
+    width: 19em;
+     margin-left: 18em;
+    display: flex;
+  }
+
+body {
+
+  background-image:url(Hallway\ School\ -\ Copy.jpg);
+}
+
+  body {
+    display: grid;
+    grid:
+      " h   m   m "12em
+      " n   m   m  " auto
+      " f   f   .  " auto
+      / auto auto auto;
+    grid: gap;
+  }
+
+body {
+  display:grid;
+  grid:
+  " h  h  h " auto
+  " n  m  m " auto
+  " f  f  f " auto
+  /auto auto auto;
+  grid:gap;
+
+}
+  
+
+
+  header {
+    grid-area: h;
+  }
+
+  main {
+    grid-area: m;
+  }
+
+  footer {
+    grid-area: f;
+  }
+
+  nav {
+    grid-area: n;
+  }
+</style>
